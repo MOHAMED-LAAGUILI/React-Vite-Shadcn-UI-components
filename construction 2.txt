@@ -1,0 +1,24 @@
+there is a new magic ui library that work perfectly with shadcn ui
+Magic UI
+
+it required same shadcn configuration 
+https://magicui.design/docs/installation/vite
+
+to integrate any componenet
+like example
+npx shadcn@latest add "https://magicui.design/r/globe"
+
+
+in any impportation instead of this 
+import Globe from "@/components/magicui/globe";
+
+use directly the dir name
+import Globe from './ui/globe';
+
+the abbove import its just an example u can change the last dir name "globe" to the name of installed componenet
+
+
+helpful too site to convert tsx to jsx 
+in case of any componenets has been found written by ts
+https://transform.tools/typescript-to-javascript
+
